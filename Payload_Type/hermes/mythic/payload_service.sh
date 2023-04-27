@@ -11,7 +11,7 @@ set +e
 #	exit 1
 #fi
 
-#export DYLD_ROOT_PATH=/usr/libexec/darling
+export DYLD_ROOT_PATH=/usr/libexec/darling
 
 #exec "${DYLD_ROOT_PATH}/usr/libexec/darling/vchroot" "${DYLD_ROOT_PATH}" /sbin/launchd
 
